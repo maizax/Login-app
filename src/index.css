@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(rgb(104, 18, 104), rgb(26, 0, 26));
+}
+
+.form-control {
+  margin: 20px;
+  position: relative;
+}
+
+.logo-person {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 60px;
+}
+.logo-lock {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 60px;
+  cursor: pointer;
+}
+
+.form-control input,
+.form-control select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  width: 20rem;
+  height: 2.5rem;
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: rgb(104, 18, 104);
+}
+
+button {
+  background-color: rgb(104, 18, 104);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+  color: rgb(245, 238, 238);
+  margin: 5px 20px 20px 20px;
+}
+
+button:hover,
+button:active {
+  background-color: rgb(182, 116, 182);
+}
+
+.invalid input {
+  border: 1px solid #eb9696;
+}
+
+.error-text {
+  color: #b40e0e;
+  font-size: 11px;
+  margin-left: 3px;
+}
+
+.incorrect-text {
+  color: #b40e0e;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.form {
+  border-color: black;
+  background-color: rgb(248, 244, 244);
+  height: 42vh;
+  border-radius: 4px;
+  position: relative;
+}
+
+.topbar {
+  background-color: rgb(104, 18, 104);
+  position: relative;
+  height: 8vh;
+  margin: 0;
+  padding: 15px 20px 20px 20px;
+  color: rgb(245, 238, 238);
+  font-size: 15px;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.welcome {
+  border-color: black;
+  background-color: rgb(248, 244, 244);
+  height: fit-content;
+  border-radius: 4px;
+  width: 15rem;
+  display: block;
+  text-align: center;
+}
+
+.logoutBar {
+  background-color: rgb(104, 18, 104);
+  border-radius: 3px 3px 0px 0px;
+  font-size: 20px;
+  height: 2.5rem;
+  padding-top: 7px;
+  color: rgb(248, 244, 244);
+}
+
+.personName {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
